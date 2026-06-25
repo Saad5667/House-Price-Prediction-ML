@@ -1,122 +1,102 @@
----
+# House Price Prediction — ML Regression
 
-### 🟢 Task 6 — House-Price-Prediction-ML
-
-```markdown
-# 🏠 House Price Prediction — ML Regression
-
-
-
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-
-
-
-
-![Scikit--learn](https://img.shields.io/badge/Scikit--learn-1.3-orange)
-
-
-
-
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-
-
-
-![R2](https://img.shields.io/badge/R²%20Score-0.91-success)
-
-
-
-**Internship:** DevelopersHub Corporation — AI/ML Engineering Internship  
-**Intern Name:** Saad  
-**Batch:** June 2026  
-**Due Date:** 26th June, 2026  
+**Internship:** DevelopersHub Corporation — AI/ML Engineering Internship
+**Intern Name:** Saad
+**Batch:** June 2026
+**Due Date:** 26th June, 2026
 
 ---
 
-## 🎯 Objective
+## Objective
 
-Build a regression ML model to predict house sale prices based on property features like size, quality, year built and garage capacity. This project demonstrates complete regression pipeline from EDA to model deployment evaluation.
-
----
-
-## 📋 Dataset Information
-
-| Property | Detail |
-|----------|--------|
-| Dataset | House Prices — Advanced Regression Techniques |
-| Source | Kaggle |
-| Total Houses | 1,460 |
-| Total Features | 79 (7 selected) |
-| Target | SalePrice (USD) |
-| Price Range | $34,900 — $755,000 |
-| Average Price | ~$180,921 |
+Build a regression ML model to predict house sale prices based on property features like size, quality, year built and garage capacity.
 
 ---
 
-## 📊 Features Used
+## Dataset Information
 
-| Feature | Description |
-|---------|-------------|
-| GrLivArea | Above ground living area (sq ft) |
-| BedroomAbvGr | Number of bedrooms |
-| FullBath | Number of bathrooms |
-| YearBuilt | Year constructed |
-| OverallQual | Overall quality rating (1-10) |
-| GarageCars | Garage capacity |
-| TotalBsmtSF | Total basement area (sq ft) |
+- **Dataset:** House Prices Advanced Regression Techniques
+- **Source:** Kaggle
+- **Total Houses:** 1,460
+- **Features Used:** 7
+- **Target:** SalePrice in USD
+- **Price Range:** $34,900 to $755,000
+- **Average Price:** $180,921
 
 ---
 
-## 🛠️ Libraries Used
+## Features Used
 
-| Library | Purpose |
-|---------|---------|
-| Python 3.11 | Programming language |
-| Pandas | Data manipulation |
-| NumPy | Numerical operations |
-| Matplotlib & Seaborn | Visualizations |
-| Scikit-learn | ML models & evaluation |
-
----
-
-## 🤖 Models Trained
-
-| Model | MAE | RMSE | R² Score |
-|-------|-----|------|---------|
-| Linear Regression | ~$22,000 | ~$35,000 | ~0.78 |
-| Ridge Regression | ~$22,000 | ~$35,000 | ~0.78 |
-| Random Forest | ~$17,000 | ~$27,000 | ~0.88 |
-| **Gradient Boosting** ⭐ | **~$15,000** | **~$24,000** | **~0.91** |
+- GrLivArea — Above ground living area
+- BedroomAbvGr — Number of bedrooms
+- FullBath — Number of bathrooms
+- YearBuilt — Year constructed
+- OverallQual — Overall quality rating
+- GarageCars — Garage capacity
+- TotalBsmtSF — Total basement area
 
 ---
 
-## 📊 Visualizations Created
+## Libraries Used
 
-| # | Visualization |
-|---|--------------|
-| 1 | Sale Price Distribution + Log Transform |
-| 2 | Living Area vs Price Scatter |
-| 3 | Overall Quality vs Price Bar Chart |
-| 4 | Correlation Heatmap |
-| 5 | Box Plots — Quality & Bedrooms |
-| 6 | Year Built & Garage vs Price |
-| 7 | Actual vs Predicted Scatter |
-| 8 | Actual vs Predicted Line Plot |
-| 9 | Feature Importance Chart |
-| 10 | Residual Analysis |
+- Python 3.11
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
 ---
 
-## 🔍 Key Findings
+## Models Trained
 
-- ✅ **Gradient Boosting** best model — R² 0.91, MAE ~$15,000
-- ✅ **OverallQual** strongest predictor (0.5763 importance)
-- ✅ **GrLivArea** second strongest predictor (0.1838)
-- ✅ **Newer houses** command significantly higher prices
-- ✅ **Mean prediction error** only $172 — extremely accurate
-- ✅ Model explains **91% of price variance**
-- ✅ Suitable for **real estate price estimation apps**
+- Linear Regression — R2: 0.78
+- Ridge Regression — R2: 0.78
+- Random Forest — R2: 0.88
+- Gradient Boosting — R2: 0.91 (Best Model)
 
 ---
 
-## 📁 Project Structure
+## Visualizations Created
+
+1. Sale Price Distribution and Log Transform
+2. Living Area vs Price Scatter Plot
+3. Overall Quality vs Price Bar Chart
+4. Correlation Heatmap
+5. Box Plots — Quality and Bedrooms
+6. Year Built and Garage vs Price
+7. Actual vs Predicted Scatter Plot
+8. Actual vs Predicted Line Plot
+9. Feature Importance Chart
+10. Residual Analysis
+
+---
+
+## Key Findings
+
+- Gradient Boosting best model with R2 score 0.91
+- OverallQual is strongest predictor with 0.5763 importance
+- GrLivArea is second strongest predictor
+- Newer houses command higher prices
+- Mean prediction error only $172
+- Model explains 91% of price variance
+
+---
+
+## How to Run
+
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+jupyter notebook task6_house_price_prediction.ipynb
+
+---
+
+## Project Structure
+
+- task6_house_price_prediction.ipynb
+- train.csv
+- README.md
+
+---
+
+DevelopersHub Corporation — AI/ML Engineering Internship 2026
