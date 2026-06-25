@@ -1,6 +1,4 @@
----
-
-### 🟢 Task 6 — House-Price-Prediction-ML
+# 🟢 Task 6 — House-Price-Prediction-ML
 
 ```markdown
 # 🏠 House Price Prediction — ML Regression
